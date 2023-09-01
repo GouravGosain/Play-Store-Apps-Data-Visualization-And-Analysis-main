@@ -1,18 +1,15 @@
-<h1> Using K-means Clustering for Prediction of Diabetes </h1>
+# Play-Store-Apps-Data-Visualization-And-Analysis
+![Python](https://img.shields.io/badge/Python-3.9.2-blueviolet)
+![Scikit learn](https://img.shields.io/badge/sklearn-0.24.2-red)
+![Numpy](https://img.shields.io/badge/Numpy-1.19.5-green)
+![Pandas](https://img.shields.io/badge/Pandas-1.3.3-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.1.0-red)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.3.4-white)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.11.1-pink)
 
-In this project, we will cover k-means clustering from scratch. In general, Clustering is defined as the grouping of data points such that the data points in a group will be similar or related to one another and different from the data points in another group. The goal of clustering is to determine the intrinsic grouping in a set of unlabelled data.
+This is a simple data analysis and visualization project. I have used following python libraries: numpy, matplotlib, seaborn, and sklearn. 
 
-K- means is an unsupervised partitional clustering algorithm that is based on grouping data into k – numbers of clusters by determining centroid using the Euclidean or Manhattan method for distance calculation. It groups the object based on minimum distance.
+In this project, we will perform data exploration, cleaning, analysing and visualization on the apps present on Google's Play Store.
 
-![Diabetes Prediction using Kmeans](https://i.imgur.com/kFSaAyF.png)
-
-ALGORITHM
-
-    1. First,  initialize the number of clusters, K (Elbow method is generally used in selecting the number of clusters )
-    2. Randomly select the k data points for centroid. A centroid is the imaginary or real location representing the center of the cluster.
-    3. Categorize each data items to its closest centroid and update the centroid coordinates calculating the average of items coordinates categorized in that group so far
-    4. Repeat the process for a number of iterations till successive iterations clusters data items into the same group
-
-HOW IT WORKS ?
-
-In the beginning, the algorithm chooses k centroids in the dataset randomly after shuffling the data. Then it calculates the distance of each point to each centroid using the euclidean distance calculation method. Each centroid assigned represents a cluster and the points are assigned to the closest cluster. At the end of the first iteration, the centroid values are recalculated, usually taking the arithmetic mean of all points in the cluster.  In every iteration, new centroid values are calculated until successive iterations provide the same centroid value. 
+## Dataset
+I have not included the dataset file in the repository. So, you could visit [Kaggle](https://www.kaggle.com/lava18/google-play-store-apps) link for the official dataset.
